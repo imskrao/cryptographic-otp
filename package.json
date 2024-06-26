@@ -1,0 +1,16 @@
+{
+  "name": "cryptographic-otp",
+  "version": "1.0.0",
+  "description": "Module for OTP generation and verification",
+  "main": "index.js",
+  "scripts": {
+     "test": "node test/test.js",
+      "start": "node index.js"
+  },
+  "keywords": ["otp", "authentication", "security"],
+  "author": "Santosh Rao",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
